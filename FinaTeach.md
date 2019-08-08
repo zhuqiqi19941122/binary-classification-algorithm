@@ -206,7 +206,7 @@ sns.barplot(y=train_job.index, x=train_job.values)
 
 
 
-![png](output_5_1.png)
+![png](https://github.com/zhuqiqi19941122/binary-classification-algorithm/blob/master/fig/output_5_1.png)
 
 
 
@@ -222,21 +222,6 @@ train_job_y_counts
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -418,12 +403,7 @@ sns.barplot(x='total',y='job',hue='y',data=train_job_y_counts)
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x24c363f7c18>
-
-
-
-
-![png](output_9_1.png)
+![png](https://github.com/zhuqiqi19941122/binary-classification-algorithm/blob/master/fig/output_9_1.png)
 
 
 
@@ -437,13 +417,7 @@ sns.barplot(x='marital',y='norm',hue='y',data=train_marital_y)
 
 
 
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x24c3637fc88>
-
-
-
-
-![png](output_10_1.png)
+![png](https://github.com/zhuqiqi19941122/binary-classification-algorithm/blob/master/fig/output_10_1.png)
 
 
 
@@ -460,7 +434,7 @@ train_education_y.plot.bar()
 
 
 
-![png](output_11_1.png)
+![png](https://github.com/zhuqiqi19941122/binary-classification-algorithm/blob/master/fig/output_11_1.png)
 
 
 
@@ -472,12 +446,7 @@ train_poutcome_y.plot.bar()
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x24c365dcda0>
-
-
-
-
-![png](output_12_1.png)
+![png](https://github.com/zhuqiqi19941122/binary-classification-algorithm/blob/master/fig/output_12_1.png)
 
 
 train_contact_y = train_data.groupby(["contact","y"]).size().unstack()
