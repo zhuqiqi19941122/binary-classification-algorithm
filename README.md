@@ -11,4 +11,4 @@ Random Forest;
 ## Evaluation Methods
 To evaluate the performance of each model, we used the ROC AUC Score. Learn more about ROC curves and AUC [here](https://www.dataschool.io/roc-curves-and-auc-explained/).
 ## Results
-![AUC of different methods]
+![AUC of different methods](https://github.com/zhuqiqi19941122/binary-classification-algorithm/blob/master/fig/performance.png)
