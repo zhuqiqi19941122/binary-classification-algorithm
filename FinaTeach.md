@@ -447,7 +447,3 @@ train_poutcome_y.plot.bar()
 
 
 ![png](https://github.com/zhuqiqi19941122/binary-classification-algorithm/blob/master/fig/output_12_1.png)
-
-
-train_contact_y = train_data.groupby(["contact","y"]).size().unstack()
-train_contact_y.plot.bar()
